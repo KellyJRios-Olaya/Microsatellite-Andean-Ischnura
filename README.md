@@ -12,10 +12,10 @@ This repository contains two folders: data and bin
 
 **Data:** In this folder are the input `.xlsx` files to perform the following analyses:
 
-- Genetic diversity was characterized separately for each *Ischnura* taxon. The number of alleles per locus (A), effective number of alleles (AE), observed heterozygosity (HO), and expected heterozygosity (HE) were calculated using GenAlEx 6.503.
+- Genetic diversity: This was characterized separately for each *Ischnura* taxon. The number of alleles per locus (A), effective number of alleles (AE), observed heterozygosity (HO), and expected heterozygosity (HE) were calculated using GenAlEx 6.503.
 
-- Private alleles were identified among the sampled individuals. Private alleles were assessed separately within the two phylogenetic groups (hastata clade and capreolus clade). These analyzes included only loci successfully genotyped in all taxa within the corresponding clade and were performed using GenAlEx v6.503.
+- Private alleles: This were identified among the sampled individuals. Private alleles were assessed separately within the two phylogenetic groups (hastata clade and capreolus clade). These analyzes included only loci successfully genotyped in all taxa within the corresponding clade and were performed using GenAlEx v6.503.
 
-- Polymorphism information content (PIC) and probability of identity (PID) were calculated separately for each locus and taxon in R v4.4.3 based on allele frequencies estimated from successfully genotyped individuals.
+- Polymorphism information content (PIC) and probability of identity (PID): This were calculated separately for each locus and taxon in R v4.4.3 based on allele frequencies estimated from successfully genotyped individuals.
 
 **Bin:** This folder contains the .R file `Script_Analysis.R`. This was the R code for the analyses, mainly of Polymorphism information content (PIC) and probability of identity (PID), although it also includes the code to calculate genetic diversity, which was also calculated with GenAlex.
